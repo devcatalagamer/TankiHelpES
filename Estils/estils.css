@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
 button{
   background: none;
   position: absolute;
@@ -59,6 +64,8 @@ a {
   color: rgb(0, 170, 14);
 }
 
+
+
 a {
   position: relative;
   display: block;
@@ -69,7 +76,7 @@ a {
   line-height: 16px;
   font-weight: 900;
   text-transform: uppercase;
-  transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+  transition: color 1s,background-color 0.2s,padding 0.2s ease-in;
   color: #000;
 }
 a::before {
@@ -83,7 +90,12 @@ a::before {
   background-color: rgb(0, 170, 14);
   transform-origin: right top;
   transform: scale(0, 1);
-  transition: color 0.1s,transform 0.2s ease-out;
+  transition: color 1s,transform 0.5s ease-out;
+}
+
+.imagetank{
+  float: right;
+
 }
 
 
@@ -120,9 +132,7 @@ a:hover::before, a:focus::before {
   padding-left: 2%;
 }
 
-.imagetank{
-  float: right;
-}
+
 
 .mantenimientopag{
   margin-left: 20%;
