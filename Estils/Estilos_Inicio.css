@@ -139,10 +139,11 @@ a:hover::before, a:focus::before {
 
 /* ESTILOS PREGUNTAS Y RESPUESTAS */
 
+
+
 .container_info_pyr{
   height: 933px;
-  background-color: rgba(0, 170, 14, 0.3);
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 
