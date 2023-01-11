@@ -198,12 +198,12 @@ a:hover::before, a:focus::before {
 }
 
 .fab{
-  margin-left: 67%;
+  margin-right: 15%;
   margin-top: 10%;
 }
 
 .fa-solid{
-  margin-left: 70%;
+  margin-right: 16%;
   margin-top: 10%;
 }
 
@@ -236,15 +236,6 @@ a:hover::before, a:focus::before {
 
   background-color: rgba(0,0,0,.7);
 
-}
-
-.dark-mode{
-  margin-left: 1%;
-  /* background-color:wheat; */
-  padding-left: 9%;
-  float: right;
-  padding-top: 0.3%;
-  padding-right: 1%;
 }
 
 
