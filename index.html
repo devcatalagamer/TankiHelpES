@@ -5,25 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tanki Help ES - Inicio</title>
-  <link rel="stylesheet" href="Estils/Estilos_Inicio.css">
-  <script type="text/javascript" src="JS/Script_Inicio.js"></script>
+  <link rel="stylesheet" href="Estilos/Estilos_Inicio.css">
+  <script src="https://kit.fontawesome.com/8622d0c061.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 <body class="hidden">
-  <header>
-    <nav>
-      <ul>
-        <li><a  class="Inicio" href="#">Inicio</a></li>
-        <li><a href="Subpaginas/Tutoriales.html">Tutoriales</a></li>
-        <li><a href="Subpaginas/pyr.html">Preguntas y respuestas</a></li>
-        <li><a href="Subpaginas/pys.html">Problemas y Soluciones</a></li>
-      </ul>
-    </nav>
-</header>
-<div class="container_info">
-  <img class="imagetank" src="https://cdn.discordapp.com/attachments/403932356874076168/1057350970742419486/imagetank3.png" width="1400px" height="830px">
-  <h1 class="title1">Tanki Help ES</h1>
- <p class="info_desc">Si estás en busca de ayuda, este es tu sitio ideal!</p>
-</div>
-
+    <header>
+      <nav>
+        <ul>
+          <li><a  class="Inicio" href="#">Inicio</a></li>
+          <li><a href="Subpaginas/Tutoriales.html">Tutoriales</a></li>
+          <li><a href="Subpaginas/pyr.html">Preguntas y respuestas</a></li>
+          <li><a href="Subpaginas/pys.html">Problemas y Soluciones</a></li>
+          <i class="bi bi-brightness-high-fill" id="toogleDark"></i>
+        </ul>
+      </nav>
+    </header>
+  <div class="container_info">
+      <img class="imagetank" src="https://cdn.discordapp.com/attachments/403932356874076168/1057350970742419486/imagetank3.png" width="1400px" height="830px">
+      <h1 class="title1">Tanki Help ES</h1>
+    <p class="info_desc">Si estás en busca de ayuda, este es tu sitio ideal!</p>
+    <dialog id="modal">
+      <h1>Contactos</h1>
+      <i class="fab fa-discord" style="font-size:50px"></i>
+      <p class="text_modal">E.C.G#2516</p>
+      <i class="fa-solid fa-envelope" style="font-size: 50px;"></i>
+      <p class="text_modal2">contact.elcatalagamer@gmail.com</p>
+      <button id="btn-Cerrar-Modal">Cerrar</button>
+    </dialog>
+  </div>
+  <footer>
+    <p class="text_foot">&#169; 2022 - 2023 | elcatalagamer</p>
+    <img class="logo" src="https://cdn.discordapp.com/attachments/403932356874076168/1062786323729104936/logo.4e84b164.png" width="60" height="60">
+    <button id="btn-Abrir-Modal">Contacto</button>
+  </footer>
+  <script type="text/javascript" src="JS/Script_Inicio.js"></script>
 </body>
 </html>
