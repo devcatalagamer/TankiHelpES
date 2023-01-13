@@ -23,6 +23,8 @@ ul{
 li:hover{
   cursor: pointer;
   color: rgb(26, 148, 26);
+  transform: scale(1.2);
+  transition: 500ms
 }
 
 nav{
@@ -33,6 +35,19 @@ nav{
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   box-shadow:  1px 6px 10px rgb(0, 0, 0);
+}
+
+.link1{
+  pointer-events: none;
+}
+
+#link_tutoriales{
+  color: rgb(26, 148, 26);
+}
+
+a{
+  text-decoration: none;
+  color: white
 }
 
 /*----------*/

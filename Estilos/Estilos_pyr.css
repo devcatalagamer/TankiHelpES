@@ -20,6 +20,26 @@ ul{
   font-weight: bold;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 500ms
+}
+
+
+#link_pyr{
+  color: rgb(26, 148, 26);
+}
+
+.link1{
+  pointer-events: none;
+}
+
 
 li:hover{
   cursor: pointer;
