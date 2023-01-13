@@ -16,7 +16,7 @@ btnAbrirModal.addEventListener("click",()=>{
 });
 
 btnCerrarModal.addEventListener("click",()=>{
-  modal.closest();
+  modal.close();
 });
 
 const toggle = document.getElementById('toogleDark');
