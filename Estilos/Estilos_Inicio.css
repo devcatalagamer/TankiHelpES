@@ -217,6 +217,8 @@ footer{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   
 }
 
