@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@300;400;700&family=Roboto+Condensed:wght@300&family=Unbounded&display=swap');
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Comfortaa';
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@300;400;700&family=Roboto+Condensed:wght@300&family=Unbounded&display=swap');
+body{
+  background-image: url(https://cdn.discordapp.com/attachments/403932356874076168/1063773190272327720/fondo_pagweb.jpg);
+}
 /* HEADER */
 
 ul{
@@ -28,7 +29,7 @@ li:hover{
 }
 
 nav{
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(16, 29, 39, 0.7);
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 1%;
