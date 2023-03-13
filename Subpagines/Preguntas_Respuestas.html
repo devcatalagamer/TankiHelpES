@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tanki Help ES | Inicio</title>
+  <title>Tanki Help ES | P&R</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../Estils/Estils.css">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="body-PyR">
   <header>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img src="../Imatges/Tanki-logo-colour.svg" alt="" width="30" height="30">
@@ -34,24 +37,16 @@
                 <li class="list-group-item">Contacto</li>
               </a>
               <!-- Default dropend button -->
-              <div class="btn-group dropend">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+              <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Ayuda
+                  ayuda
                 </button>
                 <ul class="dropdown-menu">
-                  <ul class="list-group">
-                    <a href="Preguntas_Respuestas.html">
-                      <li class="list-group-item">Preguntas y Respuestas</li>
-                    </a>
-                    <a href="Problemas_Soluciones.html">
-                      <li class="list-group-item">Problemas y Soluciones</li>
-                    </a>
-                    <hr>
-                    <a href="Soporte_Tecnico.html">
-                      <li class="list-group-item">Soporte Técnico</li>
-                    </a>
-                  </ul>
+                  <li><a class="dropdown-item" id="selected">Preguntas y Respuestas</a></li>
+                  <li><a class="dropdown-item" href="Problemas_Soluciones.html">Problemas y Soluciones</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="Soporte_Tecnico.html">Soporte Técnico</a></li>
                 </ul>
               </div>
             </ul>
@@ -59,12 +54,3274 @@
         </div>
       </div>
     </div>
+    <h1 class="title-header">Preguntas y Respuestas</h1>
   </header>
-  <h1 class="title1">
-    <h1>Tanki Help ES</h1>
-    <img class="imgnopag" src="../Imatges/mantenimiento.png" alt="">
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+  <section>
+    <h2 class="title-faqs">Nombres de usuario</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Como se cambia el nombre de usuario</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Debes ir a Configuración → Cuenta → Cambiar de nick. El cambio de usuario cuesta 2000 Tankoins.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Como puedo cambiar mi nombre de usuario gratis por cristales?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Puedes cambiar tu nombre de usuario de forma gratuita solo si tu cuenta está bloqueada por un apodo no válido.
+          Comunícate con el soporte técnico enviando un correo electrónico a help@tankionline.com o completando
+          el formulario que se encuentra en este <a class="link-PyR" href="https://tankionline.com/forms/free/en/">sitio especial.</a> En todos los demás casos, un
+          cambio de apodo te costará 2000 Tankoins, pero se tiene planeado que
+          haya un cambio de nick gratuito y lo demas pagando.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puedo obtener un nombre de usuario de una cuenta inactiva?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Es posible tomar el apodo de una cuenta inactiva, pero eso también está sujeto a ciertas condiciones.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque mi nombre de usuario es inválido?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Hay varias razones para esto:
+        <ul>
+          <li>El nombre de usuario que ingresaste ya lo tiene otro jugador.</li>
+          <ul>
+            <li>En este caso, el nombre de usuario se puede obtener después de un período de inactividad del jugador.
+            </li>
+          </ul>
+          <li>El nombre de usuario que ingresaste contiene palabras prohibidas o anuncios de recursos prohibidos.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Clanes</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo cambiar el nombre y el tag del clan?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Actualmente el lider lo puede cambiar. El costo de ambos es 1.500 Tankoins cada uno, 3.000 Tankoins en total.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo tranferir la propiedad del server a otro jugador?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Para eso necesitarás el Factor de Autenticacion en 2 pasos activado en tu cuenta y ser el lider claramente. A
+          continuación deberas de elegir a cual usuario transferir la propiedad
+          y hacer clic sobre su posición de clan, te aparecerá este menú:
+          <img class="img-PyR" src="../Imatges/Tanki_Onlineposicion.png" alt=""><br>
+          Entonces simplemente le das clic a "Transfer clan ownership" marcado en rojo
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque el nombre y tag del clan són inválidos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Hay varias razones para esto:
+        <ul>
+          <li>El nombre o el tag ingresado ya está en uso en otro clan.</li>
+          <li>El nombre o tag contiene palabras prohibidas o anuncios de recursos prohibidos.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que deberia de hacer si el clan permanece bloqueado luego de que bloqueen la cuenta del propietario?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Para resolver el problema, comunícate con el soporte técnico enviando un correo electrónico a help@tankionline.com 
+          o completando el formulario que se encuentra en este <a class="link-PyR" href="https://tankionline.com/forms/free/en/">sitio especial.</a> 
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo reporto un nombre, tag o descripción ofensivo de un clan?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Para denunciar infracciones, comunícate con el soporte técnico enviando un correo electrónico a help@tankionline.com 
+          o completando el formulario que se encuentra en este <a class="link-PyR" href="https://tankionline.com/forms/free/en/">sitio especial.</a>
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Ban de chat</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Porque he sido baneado?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Cuando alguien es baneado del chat, generalmente suele ser por violar las  <a class="link-PyR" href="https://tankionline.com/en/rules/">reglas del juego.</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque me han baneado por un tiempo considerado?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+         Un baneo temporal en el chat depende de la gravedad de la infracción y del karma del jugador (Historial de infracciones pasadas)
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo remover un ban?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          A no ser que haya sido el moderador de chat que se haya equivocado, es prácticamente imposible remover un ban de chat.
+          <br><br>
+
+          En caso de que estés seguro de que haya sido un erro puedes comunicarte con un administrador de chat por el foro:
+
+          <ul>
+            <li><a class="link-PyR" href="https://en.tankiforum.com/index.php?/messenger/compose/&to=395991">DarkOperative</li></a>
+            <li><a class="link-PyR" href="https://en.tankiforum.com/messenger/compose/?to=433096">rommeltanki</li></a>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que deberia de hacer si no estoy de acuerdo con mi ban? (he sido provocado; error del moderador)</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo reporto un una violación de chat?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Bloqueos</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Porque he sido bloqueado?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo remuevo el bloqueo?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Es posible que me devuelvan una cuenta bloqueada para siempre?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puedo tener devuelta mi dinero de una cuenta bloqueada?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puedo transferir mi cuenta?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo reportar una violacion a las reglas del juego?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo reportar una tranferencia de cuentas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puedo bloquear temporalmente mi cuenta?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Acceso a la cuenta</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Has olvidado tu contraseña o correo electronico asociados a tu cuenta.</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>No he recibido un mensaje para cambiar mi contraseña/correo</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puedo desunir mi cuenta de las redes sociales? </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puedo desunir mi cuenta de steam?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Como puedo obtener una contraseña de una cuenta si el registro se hizo desde un sitio no oficial?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Pérdida de moneda/articulos</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Que hacer si articulos o monedas han desaparecido de mi garage?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Mi cuenta ha sido robada y los suministros han sido usados. Cómo puedo recuperarlos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Problemas en batalla</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Porque no he podido coger la caja dorada?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que hacer si la misión no ha sido contada?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque el juego se pausa automaticamente?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque el aumento no funciona para torretas o cascos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Problemas de pago</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Que hago si el item comprado no ha sido añadido en mi cuenta?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo obtener un reembolso si el pago fue hecho por otra persona? (no es el titular de la cuenta
+          bancaria)</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Preguntas Generales</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo consigo cristales?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo consigo Tankoins</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo participar en el programa "Youtubers TO"?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo consigo el espectador?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo me convierto en ayudante?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que hago si un premio de un concurso no ha sido añadido a mi cuenta?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puedo donar un item del juego?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Tanki X volverá algun dia?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque no obtengo el item que quiero de los Contenedores Ultra?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <h2 class="title-faqs2">Preguntas respondidas por los Desarrolladores</h2>
+    <div class="faq">
+      <div class="question">
+        <h5>Que está pasando con la versión de Steam?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="question">
+        <h5>Añadiréis más mapas en sistema MM?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Devolveréis la noche en los mapas en el sistema MM?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Añadiréis drones en los contenedores?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Entendeis que al hacer la actualizaciones de drones y suministros dependiendo unos de otros, obligas a los
+          jugadores a usar el dron mas actualizado?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando actualizaréis los gráficos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando devolvereis la opcion de usar mandos para jugar Tanki?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Actualizaréis la manera en que se ven el cielo y los edificios?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Añadiréis el modo Wasp/Hornet?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando hareis posible hacer parkour en HTML5?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Seria posible ver que aumentos i protecciones están equipados en el otro tanque arriba de su nombre de
+          usuario cuando presiones las teclas "R" o "V"?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando haréis el nuevo modo de juego "Bomb-Cart?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo puedo poner un codigo de promoción en la versión de movil?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregaréis una actualización instantanea o parcial a las recompensas? (Por ejemplo: Contenedores, desafios,
+          items. etc)? Funcionarán como las cartas de broma en Clash Royale</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Actualizarás la interfaz de móvil</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habrá suspensión dinámica en las cadenas de los cascos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Recuperarás la funcion de prueba de un articulo en batalla para probarlo antes de comprarlo?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Planeais agregar mas tankoins a los contenedores semanales?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habrá mas modos de juego especiales como wasp y firebird en un futuro cercano?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Planeais agregar una opción en el juego que permita a los lideres de clan cambiar los nombres de su clan y
+          su tag?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Eres consciente de todos esos desfases que se van haciendo aun más visibles por cada evento? ¿Harás algo al
+          respecto?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque cambiastéis el sistema de actualización?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="question">
+        <h5>Podríais agregar una función para poder guardar nuestras cuentas y poder cambiar rapidamente entre ellas,
+          como en la version de flash?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Añadiréis nuevos regalos? Quizás animados?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Qué pasará con las texturas de las modificaciones M0-2? Se agregarán como skins como "legacy"?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando, si corresponde, obtendremos el mapa Fort Knox?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que pasa con los modelos para torretas como teniamos en tanki X?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Señor Hazel, porque haces actualizaciones tan grandes con tanta frequencia? Las cosas cambian demasiado
+          rapido.</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis skins demoniacas para otras torretas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando se completará Tanki Online como juego?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando se solucionara el mecanismo de penetracion del disparo de Railgun y el error de 0 daño?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que tal si agregas algunos incetivos adicionales como un sistema de calificacion o un sistema de trofeos?
+        </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Hay alguna posibilidad de añadir algun software antitrampas o es practicamente imposible no tener tramposos
+          en tanki?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Se añadirán las marcas que dejan las torretas al disparar en el paisaje?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Se terminarán de agregar skins legacy a otras torretas como twins o firebird?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habrá algun indicador para mostrar si un jugador es de PC o móvil?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Tenéis en mente una forma en que la comunidad de tanki contribuya en el juego?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Estáis planeando traer de vuelta las skins predeterminadas como skins que se puedan comprar?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando agregareis nuevos formatos a las batallas pro? Talvez poder elegir el equipamiento permitido?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Traereis de vuelta mapas antiguos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>En los bordes de los mapas, como puedo saber donde puedo ir y donde no?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregaréis un descuento en caso de que tengan una modificación mejorada pero haya una mejora disponible?
+        </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Tengo un cuenta de google pero para participar en concuros requiero de inicio de sesión con contraseña, cosa
+          que no tengo. Que hago?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habrá guerras de clasificaciones de clanes?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque cambiasteis el precio del pase de batalla de 500 Tankoins a 1500?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Como puedo elegir el mapa de MM?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque el overdrive de Hunter carga mas lento que el de Mammoth?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Nerfearéis Tesla?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Puede haber un reclamos de tankoins todos los dias como podemos reclamar contenedores todos los dias por
+          completar nuestras misiones o simplemente esperar a que se cargue al 100%</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Teneis planeado devolver fondos de batalla para formatos de batalla como XP/BP?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>De que manera el aumento del tamaño del equipo contribuye a la calidad del juego o a los ingresos que tanki
+          recibe del juego=</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Volverán los servidores ES y BR en un futuro?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que lenguajes de programación/tecnologias estáis utilizando para tanki?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Se mostrarán los nombres de batalla personalizados dentro de la batalla en lugar de mapas y nombres de
+          formato como en flash?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregaréis un sonido especial cuando se caiga un contenedor para que sepamos que es caja dorada o
+          contenedor?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo elegís que casco o torreta sera el proximo en obtener</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregaréis sonidos de motor a los drones?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque sanar a compañeros de equipo con el OD de ares o paladin no te da puntos de batalla?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Alguna vez planeareis cambiar la forma en que funciona el spawn de juggernaut?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Dijistéis que los regalos volverian a la version HTML5 de tanki online, asi que, porque tardan tanto?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Podréis agregar una pestaña que nos permita ver el progreso de nuestras misiones en medio de la batalla?
+        </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Es posible crear clima en las batallas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Es posible crear clima en las batallas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando agregaréis TJR a las batallas PRO</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Aumentaréis el limite de amigos o podremos tener amigos ilimitados?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Aumentaréis el limite de amigos o podremos tener amigos ilimitados?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregaréis una opción para que sea posible ver si alguien está baneado?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Con el nuevo software de creacion de mapas, buscáis crear mapas completamente nuevos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Podéis hacer que las muertes se otorguen a la persona que infligió más daño, en lugar del jugador que
+          disparó ultimo al tanque?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Añadiréis una caja dorada de Tankoins?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Hay algun limite en el numero de cuentas que una persona puede crear?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Hay muchos mapas que no se utilizan, porque no los poneis en machmaking?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Hay alguna manera de crear un nuevo tutorial, como el de 2015?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Alguna vez planeareis agregar algun aumento a los drones?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque dejaron de publicar actualizaciones para la version móvil?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que determina si un jugador de móvil recibirá el mayor o menor numero de cristales por ver un anuncio
+          despues de que termine la batalla? Es aleatorio o hay factores?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Añadiréis un modo de entrenamiento?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Como planeais que premios se otorgan en los desafios? Porque repetís los mismos articulos a veces? </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Haréis la animación de apertura de los contenedores en 3D?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Tenéis planes de agregar una nueva torreta de artilleria?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habéis planeado agregar una configuración grafica para la calidad de las sombras?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque el color del equipo dejo de cambiar con el cambio a la version HTML5?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Tenéis algun plan para decorar los arbustos para dis festivos especiales, como en la versión flash?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Es posible mostrar el numero de daño si un tanque al que disparas que esta lejo, tiene armadura activada?
+        </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Planeais mantener el antiguo mapa de sandbox como recuerdo despues de que se publique la nueva versión HD
+          del mapa?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Planeais añadir un modo battle royale con nuevos mapas enormes?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando se lanzará finalmente el resto de las skins HD?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Es posible que un contenedor caiga en batallas pro? si no, os gustaria cambiar eso?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cómo afectara la nueva fisica de hooper a los eSports y batallas de parkour?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Aparecerá en el juego la version HD de juggernaut?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque la Magnum está tan débil? Hay planes para mejorarlo?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Planeáis mejorar juggernaut?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis los nuevos contenedores de skins a los desafios?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Dejariais que los jugadores vendan suministros que no necesitan y obtengan cristales en su lugar?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregaréis un convertidor de cristales a tankoins?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Alguna vez mejorareis la puntuación de isida obtenida al curar?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Si planeais traer mas cosas de tanki X a Tanki Online, exactamente que?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Alguna vez tendremos un dron ametralladora como en tanki X?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Teneis planes para recuperar los rangos de desbloqueo para los aumentos de torretas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Teneis planeado hacer un aumento para tesla que no esté a corta distancia?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Planeais lanzar un cliente para linux?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Funcionará la iluminación dinamica en los mapas de dia?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis una nueva opción para abrir contenedores más rapido?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque el daño critico de vulcan es muy a menudo menos de la mitad de su daño normal</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Hay o habrá alguna vez una manera de ver tus probabilidades de obtener un determinado item de un contenedor?
+        </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque seguis disminuyendo la velocidad de disparo de muchas torretas cuando usan el Overdrive de viking?
+        </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Haréis posible que los jugadores suelten contenedores en las batallas?</h5>
+
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis mas opciones de pago a la tienda? como etherum o tether?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque las cajas de oro regulares no tienen 1000 xp junto con los 1000 cristales si en en rango bajo tienen
+          de 10 cristales y 10 exp?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Se puede desarrollar una version web para la version movil?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis mas espacios para los aumentos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habrá skins animadas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Teneis pensado cambiar los iconos de overdrive?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Ha habido algun desarrollo en la herramienta de edicion de mapas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Donde estan las baterias? es vistualmente imposible tener un suministro constante de baterias ahora.</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Alguna vez haras posible volver a obtener la pintura cryo?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Sera posible cambiar de equipo durante una pausa despues del final de la batalla?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Podeis agregar aumentos a las minas?</h5>
+
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Vas a actualizar el aspecto de la pelota de rugby?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Hareis algo al respecto para que un grupo particular de cascos no tengan tanta ventaja sobre el resto de los
+          cascos?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Planeais terminar la serie de las skins "prime" o os estais enfocando en las skins "ultra"? Ademas, si el
+          juego se actualiza a los graficos HD, que pasara con las antiguas skins xt y prime?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Es posible agregar algo como "camara de muerte"?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Podeis agregar una opcion para elegir que equipamiento esta permitido al crear una batalla PRO?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>No crees que en algunos mapas un lado del equipo tiene mas oportunidades de ganar que el otro?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque no hay descuentos en la ranura del 4to modulo de proteccion durante los eventos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Sera posible cambiar el color de las luces de cada casco?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis la cantidad de daño que un jugador infligio a la pantalla tab?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Alguna vez obtendremos pases de suministros ilimitados durante los eventos o en la tienda?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis un aumento de paraguas para los cascos? el que puede protegerte de una lluvia de cohetes de
+          scorpion?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque no es posible girar la torreta B0-NK horizontalmente?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque algunos aumentos solo tienen ventajas y ningun inconveniente?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando volvereis al tanki viejo con buenos eSports como en 2013-2015?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis la opcion de repeteiciones de batalla con el espectador para verlo desde diferentes posiciones en
+          el futuro?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis musica y sonidos remasterizados a las batallas?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Teneis planes para agregar planos de aumento para que podamos usarlos para crear aumentos premium y
+          regulares o incluso aumentos que solo puede crear a partir de planos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis nuevos efectos de explosion para tanques?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que pasa con los contratos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>cuando habrán nuevos kits de productos?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque no haceis que el primer cambio de nombre de usuario sea gratis?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis versiones HD para efectos de disparo?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque abandonaste la idea de los contenedores tematicos (como en tanki X) a favor de la idea de tener un
+          contenedor con muchos articulos dentro?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Vais a reemplazar el Titan y Firebird destruido por Wasp y Smoky?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Regresaran los principales eventos de parkour como masters of parkour?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Vale la pena agregar otra ranura más para mas aumentos de casco?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Podriais contarnos mas sobre como funciona el progreso de creacion de nuevos mapas remasterizados?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cambiareis las recompensas del evento "challenge" accepted?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Deberiamos esperar mas cascos con orugas o habra mas flotantes?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque todavia no hay regalos en el juego?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis una seccion donde sera posible cuantos contenedores abrimos o cuantos cristales conseguimos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Teneis planes para aumentar la cantidad de cristales que obtenemos de las cajas doradas durante los eventos?
+        </h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>A diferencia de otras skins Dictator HD no tiene humo trasero. Es un error o este casco funciona con diesel?
+        </h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Teneis planes para ampliar las posibilidades del modo foto en el garaje?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habrá supermisiones como "destruye 9999 tanques" con mega premios (skin retro o algo asi)?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Aumentareis la frecuencia del mapa "forest remastered" en el grupo de emparejamiento?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habra arbustos decorados durante eventos como en halloween antes?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Cuando tendremos la opcion de pedirle a un amigo que se una a nuestro grupo?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque cuando uso el overdrive de ares para destruir a los oponentes, les arranca las torretas, per estas
+          muertes no cuentan para el progreso de misiones especiales como "dextruye x tanques usando daño critico"?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Los efectos de disparo cambiarán el color del dentro del cañon de ricochet?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Dareis 500-1000 cristales mas a un jugador si este destruye 4 tanques a la vez sin ser destruido?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>el casco de ares tambien desactivara el overdrive de la bomba de Wasp, com titan con su cupula y Mammoth con
+          su Overdrive?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Podeis hacer un modo fantasma en el que mis compañeros de equipo no puedan golpearme?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Habrá alguna compensación por el hecho de que el juego no funcione durante varios dias?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Sera posible ver cuanto dañó un tanque segun el numero de puntos de salud?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Agregareis focos en las versiones nocturnas de los mapas remasterizados?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Actualizareis los iconos de la clasificacion junto con la actualizacion de iconos de aumentos, efectos de
+          disparo, skins, etc?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Podeis agregar una opcion para hacer que los mapas remasterizados consuman un poco menos de recursos?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>En tanki X, una vez que termina una batalla, un jugador aleatorio obtiene un contenedor. Agregareis esta
+          caracteristica a Tanki Online?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Porque no se muestran todos los aumentos en la lista de aumentos disponibles para una torreta?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Que torreta es actualmente la mejor?</h5>
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Se agregaran nuevos contenedores al juego( o incluso tipos de contenedores)?</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h5>Movereis o reducireis el tamaño de los textos de segunda linea en el centro de la pantalla?. Es dificil ver
+          lo que esta pasando en un campo de</h5>
+
+
+      </div>
+      <div class="answer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum dolor numquam. Sunt expedita dolorem
+          hic ipsam deleniti?
+          Cupiditate officiis provident corrupti pariatur ducimus eligendi dicta tempore magnam at hic!
+        </p>
+      </div>
+    </div>
+  </section>
+  <script src="../JavaScript/Program.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
