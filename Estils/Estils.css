@@ -453,8 +453,57 @@ section {
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:375px) {
+.title-header {
+        text-align: center;
+        width: 95%;
+        margin-top: 0.5%;
+        font-size: 190%;
+    }
 
+    .alert-success {
+        background-color: rgba(34, 77, 62, 255);
+        border: 1px solid #76ff33;
+        color: #76ff33;
+        width: 90%;
+        height: 324px;
+    }
+
+    .carousel-item {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/740_1.jpg);
+        max-width: 340px;
+        max-height: 300px;
+        border-radius: 20px;
+        color: white;
+        margin-bottom: 1%;
+        
+    }
+
+    #carouselExampleFade {
+        margin-left: 4.3%;
+    }
+
+    h3 {
+        font-size: 200%;
+        margin-top: 2%;
+        margin-left: 4%;
+    }
+
+    hr {
+        width: 180px;
+        margin-left: 4%;
+    }
+
+    .carousel-control-prev-icon {
+        margin-right: 20%;
+        margin-top: 10px;
+    }
+    
+    .carousel-control-next {
+        margin-right: 3%;
+        margin-top: 10px;
+    }
 }
 
 @media(max-width:400px) {}
