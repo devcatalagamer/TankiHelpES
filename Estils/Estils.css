@@ -692,12 +692,16 @@ section {
 
     .faq {
 
-        width: 340px;
+        width: 400px;
         margin-top: 2rem;
         padding-bottom: 1rem;
         border-bottom: 2px solid white;
         cursor: pointer;
     }
+}
+
+@media (max-width:375px) {
+
 }
 
 @media (max-width:375px) {
