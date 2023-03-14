@@ -657,7 +657,7 @@ section {
 .carousel-item {
     background-image:
         linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/740_1.jpg);
-    width: 650px;
+    width: 550px;
     height: 300px;
     border-radius: 20px;
     color: white;
