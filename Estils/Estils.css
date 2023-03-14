@@ -494,6 +494,58 @@ section {
 }
 
 @media (max-width:1600px) and (max-height:720px) {
+
+    .alert-success {
+        background-color: rgba(34, 77, 62, 255);
+        border: 1px solid #76ff33;
+        color: #76ff33;
+        width: 90%;
+        height: 324px;
+    }
+
+    #carouselExampleFade {
+        margin-left: 5%;
+    }
+
+    .carousel-item {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/740_1.jpg);
+        width: 680px;
+        height: 300px;
+        border-radius: 20px;
+        color: white;
+        margin-bottom: 1%;
+
+    }
+
+    .carousel-control-next {
+        margin-right: 1.5%;
+        margin-top: 10px;
+    }
+
+    #item2 {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/rally_tankcar_event_2023_fo23pq_news_740_EN.jpg);
+            width: 680px;
+        height: 300px;
+        position: relative;
+    }
+    
+    #item3 {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/vlog2.jpg);
+            width: 680px;
+        height: 300px;
+        position: relative;
+    }
+    
+    #item4 {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/740_2.jpg);
+            width: 680px;
+        height: 300px;
+        position: relative;
+    }
     .imgnopag{
         width: 350px;
         margin-top: 6%;
