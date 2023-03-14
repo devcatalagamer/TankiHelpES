@@ -665,6 +665,30 @@ section {
 
     }
 
+    #item2 {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/rally_tankcar_event_2023_fo23pq_news_740_EN.jpg);
+            width: 370px;
+            height: 300px;
+        position: relative;
+    }
+    
+    #item3 {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/vlog2.jpg);
+            width: 370px;
+            height: 300px;
+        position: relative;
+    }
+    
+    #item4 {
+        background-image:
+            linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/740_2.jpg);
+            width: 370px;
+            height: 300px;
+        position: relative;
+    }
+
     #carouselExampleFade {
         margin-left: 4.3%;
     }
