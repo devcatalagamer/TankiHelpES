@@ -507,10 +507,16 @@ section {
         margin-left: 5%;
     }
 
+    h3 {
+        font-size: 150%;
+        margin-top: 2%;
+        margin-left: 4%;
+    }
+
     .carousel-item {
         background-image:
             linear-gradient(to right, rgba(0, 25, 38, 0.9), rgba(117, 19, 93, 0)), url(../Imatges/740_1.jpg);
-        width: 680px;
+        width: 730px;
         height: 300px;
         border-radius: 20px;
         color: white;
